@@ -1,0 +1,76 @@
+import java.util.Scanner;
+
+public class v8_excersize1 {
+    //function of average of 3 numbers
+    public static int avr(int n1, int n2, int n3){
+        return (n1 + n2 + n3) / 3;
+    }
+    //function all natural n numbers
+    public static void sumOfOdds(int n) {
+        int total = 0;
+        for (int i = 1; i <= n; i++) {
+            if (i % 2 != 0) {
+                total += i;
+            }
+        }
+        System.out.println("Sum of odd numbers from 1 to " + n + " is: " + total);
+    }
+    //return the grates of those two
+    public static int gretest(int n1 , int n2){
+       if (n1>n2){
+            return n1;
+        } else {
+           return n2;
+       }
+    }
+    // age is eligible to vote or not
+    public static String personage(int age){
+        if (age >= 18){
+            return "You are eligible to vote.";
+        }else {
+            return "U r not eligible to vote";
+        }
+
+    }
+
+    public static void main(String[] args) {
+//        Enter 3 numbers from the user & make a function to print their average.
+       /* Scanner sc =new Scanner(System.in);
+        System.out.println("Enter number 1");
+        int n1 = sc.nextInt();
+        System.out.println("Enter the number 2");
+        int n2 = sc.nextInt();
+        System.out.println("Enter the number 3");
+        int n3 = sc.nextInt();
+
+        System.out.println("the average of three numbers is..." + avr(n1,n2,n3));
+        //call
+        avr(n1,n2,n3);*/
+
+
+//        Write a function to print the sum of all odd numbers from 1 to n.
+        /*Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number u want to print .");
+        int n = sc.nextInt(); // You can change this value to test with other numbers
+        sumOfOdds(n);*/
+
+
+//        Write a function which takes in 2 numbers and returns the greater of those two.
+        /*Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number 1");
+        int n1 = sc.nextInt();
+        System.out.println("Enter the number 2");
+        int n2 = sc.nextInt();
+        int result = gretest(n1,n2);
+        System.out.println(result);*/
+
+//        Write a function that takes in age as input and returns if that person is eligible to vote or not. A person of age > 18 is eligible to vote.
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the age of the person..");
+        int age = sc.nextInt();
+
+        String result = personage(age);
+        System.out.println(result);
+
+    }
+}
