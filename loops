@@ -1,0 +1,72 @@
+import java.util.Scanner;
+
+public class v4_Loops {
+    public static void main(String[] args) {
+//        // for loop
+//        for(int i = 0 ; i < 4 ; i++){
+//            System.out.println("hello world");
+//        }
+////        // print 1 to 10 using for loop
+////        for(int counter = 0 ; counter <= 10 ; counter++){
+////            System.out.println(counter );
+////        }
+////        // print 1 to 10 using while loop
+////        int n = 0;
+////        while (n<=10){
+////            System.out.println(n);
+////            n++;
+////        }
+////
+////        // using do while loop
+////        int item = 0;
+////        do {
+////            System.out.println(item);
+////            item++;
+////        }while(item < 10);
+//
+//        // question print the sum of n natural numbers
+//        System.out.println("Enter the number..");
+        Scanner sc = new Scanner(System.in);
+//        int num = sc.nextInt();
+//
+//        int sum = 0;
+//        for (int i = 0 ; i <= num ; i++){
+//            sum = sum + i;
+//        }
+//        System.out.println(sum);
+//
+//        // question print the table
+//        System.out.println("Enter the number ");
+//        int number  = sc.nextInt();
+//
+//        for(int i = 1 ; i <= 10 ; i++){
+//            System.out.println(number * i);
+//        }
+//
+//        // Homeworks question
+//        //Print all even numbers till n.
+        System.out.println("Enter the number.");
+        int n = sc.nextInt();
+        for (int i = 0 ; i < n ; i += 2){
+            System.out.println(i);
+        }
+
+
+       // Make a menu driven program. The user can enter 2 numbers, either 1 or 0.
+        //If the user enters 1 then keep taking input from the user for a student’s marks(out of 100).
+        //If they enter 0 then stop.
+        //If he/ she scores :
+        //Marks >=90 -> print “This is Good”
+        //89 >= Marks >= 60 -> print “This is also Good”
+        //59 >= Marks >= 0 -> print “This is Good as well”
+        //	Because marks don’t matter but our effort does.
+        //(Hint : use do-while loop but think & understand why)
+
+
+            }
+        }
+
+
+
+
+
