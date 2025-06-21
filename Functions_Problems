@@ -1,0 +1,57 @@
+import java.util.Scanner;
+
+public class v7_functionHW {
+    //number is prime or not
+//    public static int primeornot(int n){
+//        if (n % 2 == 0){
+//            System.out.println("number is prime");
+//        }else {
+//            System.out.println("number is not prime");
+//        }
+//        return n;
+//    }
+    // Even or Odd
+//    public static int evenorodd(int number){
+//        if (number % 2 == 0){
+//            System.out.println("even");
+//        }else {
+//            System.out.println("Odd");
+//        }
+//        return number;
+//    }
+
+    //print table
+    public static int table(int n){
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(n + " * " + i + " = " + (n * i));
+        }
+        return n;
+    }
+
+
+    public static void main(String[] args) {
+        //Make a function to check if a number is prime or not.
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the number");
+//        int n = sc.nextInt();
+//
+//        primeornot(n);
+
+//        Make a function to check if a given number n is even or not.
+//        Scanner sc =new Scanner(System.in);
+//        System.out.println("Enter the number");
+//        int number = sc.nextInt();
+//
+//        evenorodd(number);
+
+//        Make a function to print the table of a given number n.
+        Scanner sc =new Scanner(System.in);
+        System.out.println("Enter the number");
+        int n = sc.nextInt();
+
+        table(n);
+
+
+
+    }
+}
